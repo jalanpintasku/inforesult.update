@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background: #d6eff4;
+}
+.navbar{
+	background: #008080;
+	margin: 0;
+	padding: 20px 30px;
+}
+ 
+.logo{
+	font-size: 14pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+ 
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+ 
+.tombol{
+	display: none;
+	color: white;
+	font-size: 14pt;			
+}
+ 
+.tombol:hover{
+	cursor: pointer;
+}
+ 
+.menu{
+	margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0;			
+}
+ 
+.menu li{
+	padding-left: 0;
+	margin-right: 10px;
+}
+ 
+.menu li a{
+	padding:10px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
+@media screen and (max-width: 768px) {
+	.menu {
+		display: none;
+	}
+ 
+	.menu.aktif{
+		display:inline-block;
+		position: absolute;
+		top: 64px;
+		background: #212121;
+		padding: 10px 20px;
+		right: 0;
+		left: 0;
+	}
+ 
+	.menu.aktif li a{
+		padding: 10px;
+		display: inline-block !important;
+	}
+ 
+	.tombol {
+		display: block;
+	}
+}
+.notification {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: green;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  padding: 5px 5px;
+  border-radius: 50%;
+  background: #008080;
+  color: white;
+}
+	#header a#logo,#header a#logo *{font-size:28px}.item .redes{width:100%}.redes>a{padding:15px 20px;width:64px;min-width:auto;font-size:0}.redes>a>img{float:none}.index,.sidebar{width:98%}.spanw480,.spanw780{display:none}span.terminos,span.terminos>a{display:block}#footer{line-height:30px}span.terminos{text-align:center}}.item.blog>h1,.item.blog>h1>a{font-size:24px}.item.blog img{float:left;height:140px;width:160px;margin-right:15px}.item.blog p.fecha{font-size:14px;color:#555;margin:3px 0}.emojis{padding:12px 10px;border-radius:5px}.emoticon{-webkit-transition:all .2s ease;-moz-transition:all .2s ease;-ms-transition:all .2s ease;-o-transition:all .2s ease;transition:all .2s ease;display:inline-block;margin-right:6px;width:42px;height:42px;cursor:pointer;position:relative}.emoticon:hover{-webkit-transform:scale(1.16,1.16);-moz-transform:scale(1.16,1.16);-ms-transform:scale(1.16,1.16);-o-transform:scale(1.16,1.16);transform:scale(1.16,1.16)}.emoticon em{position:absolute;width:160px;background:rgba(0,0,0,.7);top:-40px;left:50%;margin-left:-80px;color:#fff;text-align:center;padding:8px 0;font-size:16px;display:none;border-radius:4px}.emoticon:hover em{display:block}.reactions{text-align:right}.reactions label{font-size:13px;color:#333;margin-right:6px}.reactions label>span.emoticone{display:inline-block;width:24px;height:24px;vertical-align:middle;margin:0}.form>form{max-width:600px;margin:0 auto;text-align:center}.form form>h1{font-size:24px;height:56px;line-height:56px;background:#ddd;border-radius:8px 8px 0 0;color:#222}.item>.resume ol,.item>.resume ul{margin-left:30px}.item .resume ul li{list-style:disc}.item .resume ol li{list-style:decimal}.form form>label{display:block;margin-top:10px;text-align:left;padding:2px;color:#000}.form form>label input,.form form>label select,.form form>label textarea{border:1px solid #ddd;border-radius:3px;height:42px;line-height:42px;color:#111;width:100%;padding:0 10px;box-sizing:border-box}.form form>label textarea{height:auto;min-height:200px;line-height:20px;padding:10px}.form form>label button{padding:0 48px;height:42px;line-height:42px;color:#fff;background:#09c;border-bottom:4px solid #069;font-size:17px;cursor:pointer}.item>.resume u{text-decoration:underline}.item>.resume a{color:#5a99bf}.item>.resume pre{background-color:#eee;padding:10px;border-radius:5px;border:1px solid #ccc}.item>.resume blockquote{background-color:#eee;padding:10px;border-left:8px solid #ccc}#container,#footer,#header{background:0 0}.item>.resume>h1>*{font-size:36px}.item>.resume>h2>*{font-size:29px}.item>.resume>h3>*{font-size:24px}.item>.resume>h4>*{font-size:20px}.item>.resume>h5>*{font-size:16px}.item>.resume>h6>*{font-size:12px}#container.contact{margin:25px 0}#container.e404 .columnaindex.max{padding:50px 15px}#container.e404 h1{color:#000;font-size:92px;font-weight:700;text-align:center}#container.e404 h3{text-align:center;color:#111}
